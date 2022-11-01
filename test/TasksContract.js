@@ -32,4 +32,14 @@ contract("TasksContract", () => {
         assert.equal(taskEvent.description,"Description two task");
     })
 
+    it('task toogle done' , async () => {
+        const result = await this.taskConctrat.toogleDone(1);
+        const taskEvent = result.logs[0].args;
+        const task = await this.taskConctrat.task(1);
+
+        assert.equal(task.done, true);
+        assert.equal(taskEvent.done,true);
+        assert.equal(taskEvent.id,1);
+    })
+
 })
