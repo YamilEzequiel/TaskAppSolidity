@@ -1,0 +1,9 @@
+{
+    "server":{
+        "baseDir": [
+            "./front",
+            "./build/contracts"
+        ]
+    },
+    "port": "3000"
+}

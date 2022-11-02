@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@truffle/contract": "^4.6.5",
+    "lite-server": "^2.6.1"
+  },
+  "name": "tareas",
+  "description": "<img src=\"https://miro.medium.com/max/720/1*82A3uvAKYw-RTo99FyfxyQ.png\"/>",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "tailwind": "npx tailwindcss -i ./tailwind/style.css -o ./front/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YamilEzequiel/TaskAppSolidity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YamilEzequiel/TaskAppSolidity/issues"
+  },
+  "homepage": "https://github.com/YamilEzequiel/TaskAppSolidity#readme"
+}

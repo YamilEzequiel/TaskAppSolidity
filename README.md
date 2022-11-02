@@ -11,7 +11,6 @@
 
 <br><br>
 
-----
 
 # 🚀 Init project
 
@@ -33,8 +32,17 @@ truffle deploy
 
 Connect the truffle with our contract Ganache
 
-``` 
-truffle console
+``` bash
+    #Ingresar en consola
+    truffle console
+
+    #Ver el deploy de contrato
+    #Dentro de consola:
+    nameVar = await nameContract.deployed()
+
+    #Luego podremos ingresar en sus funciones internar como por ejemplo una por defecto
+    nameVar.address
+    nameVar.counter()
 ```
 
 <br>
@@ -45,5 +53,43 @@ Test APP
 truffle test
 ```
 
+<br>
 
+# 🔧 Tailwind 
+
+📁 talwind.config.js
+
+📁 tailwind/style.css
+
+## Output 
+
+📁 front/output.css
+
+```bash
+    #Execute
+    npm run tailwind
+```
+
+
+<br>
+
+# 🔧 Live Server 
+
+[NPM] https://www.npmjs.com/package/live-server
+
+```bash
+    #Execute
+    npm run start
+```
+
+
+📁 ./bs-config.json
+
+💢 PORT 3000
+
+----
+
+<br>
+
+# <img src="https://docs.metamask.io/metamask-fox.svg"> Metamask
 

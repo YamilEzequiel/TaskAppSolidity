@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Task Blockchain</title>
+</head>
+<body class="bg-gradient-to-r from-cyan-900 via-cyan-700 to-cyan-900">
+
+    <div class="p-4 md:p-10 md:flex">
+        <div>
+            <div class="bg-gray-900 p-8 rounded-xl shadow-2xl hover:shadow-blue-400/50 ease-in-out duration-1000">
+                <h1 class="text-white text-4xl">TaskApp</h1>
+                <h3 class="text-gray-600 text-l p-2">Decentralize Task APP</h3>
+                <h4 class="text-white">Wallet: 000000000000000</h4>
+            </div>
+            <form class="bg-gray-900 p-8 rounded-xl shadow-2xl mt-6 flex flex-col hover:shadow-blue-400/50 ease-in-out duration-1000">
+                <h1 class="text-white text-3xl">Save a Task</h1>
+                <input
+                type="text"
+                id="title"
+                class="p-2 bg-gray-800 rounded-xl mt-4 shadow-2xl"
+                placeholder="Write a Task"
+                autofocus
+              />
+              <textarea
+                id="description"
+                rows="2"
+                class="p-2 bg-gray-800 rounded-xl mt-4 shadow-2xl"
+                placeholder="I have to do ...."
+              ></textarea>
+              <button class="bg-gradient-to-r p-2 rounded mt-4 from-cyan-800 via-cyan-600 to-cyan-900 hover:shadow-red-400/50 ease-in-out duration-100">
+                Save
+              </button>
+            </form>
+        </div>
+        <div class="p-4 w-full">
+            <div class="bg-gray-900 rounded shadow-2xl p-4 flex-col hover:shadow-blue-400/50 ease-in-out duration-1000" 
+            id="tasksList">
+            asd
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./truffle-contract.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
