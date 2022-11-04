@@ -12586,15 +12586,34 @@
           ],
           "name": "TaskToggleDone",
           "type": "event"
+        },
+        "0x3a359256e016dcfa8426ec503e08484999d6fcfb8c0f6084dc9e63374d838429": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "done",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskToggledDone",
+          "type": "event"
         }
       },
       "links": {},
-      "address": "0xBc5529Eee4B8Bf29789EcE9c8C5a7B9621a5e90F",
-      "transactionHash": "0x6f76350d02741dd6314eba798d31fedbf204e33836fc2abd516e2dc55e751d58"
+      "address": "0xf7060a7f1041CD4979D0e8399C1761BFfeB6F9FD",
+      "transactionHash": "0x7148dfe1c94e194b8050c5179f749f9f4adbf0789d90ef5d30bb63640f561fdd"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-11-01T22:07:42.678Z",
+  "updatedAt": "2022-11-03T16:49:24.888Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
